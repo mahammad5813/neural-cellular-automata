@@ -80,8 +80,8 @@ class NeuralNetwork:
             
 nn = NeuralNetwork([9,1])
 resize_width = 600
-nrows = 200
-ncols = 200
+nrows = 100
+ncols = 100
 
 # render_grid = np.zeros((nrows, ncols, 3))
 grid = np.random.randint(0,2,(nrows,ncols))
